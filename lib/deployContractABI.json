@@ -1,0 +1,86 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_contractList",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "_prospectusRegistry",
+				"type": "address"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "address",
+				"name": "contractAddress",
+				"type": "address"
+			}
+		],
+		"name": "contractDeployed",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_pdfAddress",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_imageAddress",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_initialShares",
+				"type": "uint256"
+			}
+		],
+		"name": "deployAndRegisterContract",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "contractList",
+		"outputs": [
+			{
+				"internalType": "contract ContractList",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "prospectusRegistry",
+		"outputs": [
+			{
+				"internalType": "contract ProspectusRegistry",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

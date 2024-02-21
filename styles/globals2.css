@@ -1,0 +1,493 @@
+/* styles/globals.css */
+body {
+  font-family: sans-serif;
+}
+
+body.skin-blue {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+body.skin-black {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body.skin-white {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.nnavbar-custom.skin-blue {
+  background-color: #3333ff;
+}
+
+.nnavbar-custom.skin-black {
+  background-color: #333333;
+}
+
+.nnavbar-custom.skin-white {
+  background-color: #000000;
+}
+
+/* ...Your Existing CSS... */
+
+/* Additional skin-specific CSS (nav links and dropdowns) */
+body.skin-white .navbar-custom .nav-link,
+body.skin-white .navbar-custom .dropdown-menu .dropdown-item {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+body.skin-black .navbar-custom .nav-link,
+body.skin-black .navbar-custom .dropdown-menu .dropdown-item {
+  color: #ffffff;
+  background-color: #333333;
+}
+.milestone-item {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+}
+
+body.skin-white .milestone-item {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.skin-black .milestone-item {
+  background-color: #000000;
+  color: #ffffff;
+}
+.defi-container {
+  padding: 20px;
+  minHeight: 100vh;
+}
+
+.defi-paper-item {
+  display: flex;
+  alignItems: center;
+  border: none;
+  listStyleType: 'disc';
+  paddingLeft: '20px';
+}
+
+.paper-title {
+  flex: 1;
+}
+
+.paper-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Default skin */
+body.skin-blue .defi-container {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+body.skin-blue .defi-paper-item {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+/* Black skin */
+body.skin-black .defi-container {
+  background-color: #000000;
+  color: #ffffff;
+}
+body.skin-black .defi-paper-item {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* White skin */
+body.skin-white .defi-container {
+  background-color: #ffffff;
+  color: #000000;
+}
+body.skin-white .defi-paper-item {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.ai-container {
+  padding: 20px;
+  minHeight: 100vh;
+}
+
+.ai-link-item {
+  display: flex;
+  alignItems: center;
+  border: none;
+  listStyleType: 'disc';
+  paddingLeft: '20px';
+}
+
+.custom-video-button {
+    background-color: #0D1C3B;
+}
+
+.custom-video-button:hover {
+    background-color: #005ce0; /* Change to your desired lighter blue color */
+    color: #fff; /* Change text color to white or your desired color */
+}
+
+.link-content {
+  flex: 1;
+}
+
+.link-text {
+  color: inherit;
+  textDecoration: 'none';
+}
+
+/* Default skin */
+body.skin-blue .ai-container {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+body.skin-blue .ai-link-item {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+/* Black skin */
+body.skin-black .ai-container {
+  background-color: #000000;
+  color: #ffffff;
+}
+body.skin-black .ai-link-item {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* White skin */
+body.skin-white .ai-container {
+  background-color: #ffffff;
+  color: #000000;
+}
+body.skin-white .ai-link-item {
+  background-color: #ffffff;
+  color: #000000;
+}
+.primitives-container {
+  padding: 20px;
+  minHeight: 100vh;
+}
+
+.primitives-list-item {
+  border: none;
+}
+
+.blockchain-terminology-link, 
+.primitives-link {
+  textDecoration: underline;
+}
+
+/* Default skin */
+body.skin-blue .primitives-container {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+body.skin-blue .primitives-list-item {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+/* Black skin */
+body.skin-black .primitives-container {
+  background-color: #000000;
+  color: #ffffff;
+}
+body.skin-black .primitives-list-item {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* White skin */
+body.skin-white .primitives-container {
+  background-color: #ffffff;
+  color: #000000;
+}
+body.skin-white .primitives-list-item {
+  background-color: #ffffff;
+  color: #000000;
+}
+.paper-container {
+}
+
+.paper-list-item {
+  border: none;
+  display: flex;
+  alignItems: 'center';
+  listStyleType: 'disc';
+  paddingLeft: '20px';
+}
+
+.paper-title {
+  flex: 1;
+}
+
+.books-container {
+  padding: 20px;
+  minHeight: 100vh;
+}
+
+/* Default skin */
+body.skin-blue .books-container, body.skin-blue .paper-list-item {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+/* Black skin */
+body.skin-black .books-container, body.skin-black .paper-list-item {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* White skin */
+body.skin-white .books-container, body.skin-white .paper-list-item {
+  background-color: #ffffff;
+  color: #000000;
+}
+.notes-container {
+}
+
+.notes-list-item {
+  border: none;
+}
+
+.notes-link {
+  text-decoration: underline; /* Underline the links */
+}
+
+/* Default skin */
+body.skin-blue .notes-container, body.skin-blue .notes-list-item {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+/* Black skin */
+body.skin-black .notes-container, body.skin-black .notes-list-item {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* White skin */
+body.skin-white .notes-container, body.skin-white .notes-list-item {
+  background-color: #ffffff;
+  color: #000000;
+}
+.paper-container {
+}
+
+.paper-list-item {
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.paper-title {
+  flex: 1;
+}
+
+.blockchain-container {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Default skin */
+body.skin-blue .blockchain-container, body.skin-blue .paper-list-item {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+/* Black skin */
+body.skin-black .blockchain-container, body.skin-black .paper-list-item {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* White skin */
+body.skin-white .blockchain-container, body.skin-white .paper-list-item {
+  background-color: #ffffff;
+  color: #000000;
+}
+.derivatives-container {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Default skin */
+body.skin-blue .derivatives-container, body.skin-blue .paper-list-item {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+/* Black skin */
+body.skin-black .derivatives-container, body.skin-black .paper-list-item {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* White skin */
+body.skin-white .derivatives-container, body.skin-white .paper-list-item {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* TextDisplay.module.css */
+.keyword:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+/* KeywordTooltip.module.css */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.keyword {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.details {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tooltip:hover .details {
+  display: block;
+}
+
+
+.details.active {
+  display: block;
+}
+/* styles.css or another suitable CSS file */
+.navbar-custom .dropdown-menu .dropdown-menu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin-top: 0;
+  margin-left: 0.1rem; /* Adjust this as needed */
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.navbar-custom .dropdown-menu .dropdown-item:hover .dropdown-menu {
+  display: block;
+}
+
+/* globals.css */
+
+/* ... Your existing global styles ... */
+
+/* Hover styles for dropdown items */
+.navbar-custom .dropdown-menu .dropdown-item:hover {
+  background-color: #FFFFFF; /* This is a light gray. Adjust the color as per your design preference. */
+  color: #000; /* This is black text. Adjust if needed. */
+}
+/*.list-group-item-action:hover {
+  background-color: #f0f0f0;
+} */
+	.logo-img {
+  max-height: 50px; /* Adjust the value as needed */
+  max-width: 100%; /* Ensure the logo doesn't exceed the container width */
+}
+
+
+
+
+.navbar-custom {
+    background-color: #FFFFFF; /* Light gray */
+    border-bottom: 1px solid #e0e0e0; /* Border bottom */
+}
+
+.navbar-custom .nav-link {
+    color: #333; /* Dark gray text */
+    font-weight: 500; /* Medium weight for a bit of boldness */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar-custom .nav-link:hover {
+    color: #555; /* Slightly darker gray for hover */
+}
+
+.navbar-custom .navbar-brand {
+    color: #333; /* Dark gray text for brand/logo */
+}
+
+.navbar-custom .dropdown-menu {
+    border-radius: 0; /* Remove rounded corners */
+}
+
+.navbar-custom .dropdown-item {
+    color: #333; /* Dark gray text for dropdown items */
+}
+
+.navbar-custom .dropdown-item:hover {
+    background-color: #f0f0f0; /* Light gray background for hovered dropdown items */
+}
+
+.navbar-custom .mr-auto {
+    margin-left: auto !important;
+}
+
+.navbar-custom {
+    padding-left: 50px;  /* Adjust as needed */
+    padding-right: 50px;  /* Adjust as needed */
+}
+
+
+/* styles.css */
+
+.container-custom {
+    background-color: #37517e;
+    padding: 5% 0;
+}
+
+.container-custom h1,
+.container-custom p {
+    color: #ffffff;
+}
+
+.btn-custom {
+    background-color: #ffffff;
+    color: #004d99;
+}
+
+.btn-custom:hover {
+    background-color: #e6e6e6;
+    color: #004d99;
+}
+
+.container-custom {
+    margin: 20px 0; /* Adjust the top and bottom margin according to your needs */
+}
+
+.contentArea {
+	    /*background-color: #37517e; */
+	    background-color: #0E0929; 
+    padding: 3rem 0;
+}
+
+/* Add this to your CSS file or style tag */
+.custom-thumbnail {
+  max-width: 200px !important; /* Adjust the size as needed */
+  height: auto !important;
+}
+.rounded-image {
+  border-radius: 40px; /* Adjust the radius as needed */
+}
+
